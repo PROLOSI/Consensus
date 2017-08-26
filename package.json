@@ -1,0 +1,22 @@
+{
+  "name": "consensus",
+  "version": "1.0.0",
+  "description": "Aplicacion descentralizada de identidad democratica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PROLOSI/Consensus.git"
+  },
+  "author": "PROLOSI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PROLOSI/Consensus/issues"
+  },
+  "homepage": "https://github.com/PROLOSI/Consensus#readme",
+  "dependencies": {
+    "web3": "^0.20.0"
+  }
+}
