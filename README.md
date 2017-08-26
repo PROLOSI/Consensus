@@ -20,4 +20,10 @@ Necesidades criticas del proyecto:
 
 - Enfocado hacia los resultados.
 
+<<<<<<< HEAD
 - Habilidades de resolución de problemas.Prueba
+=======
+- Habilidades de resolución de problemas.
+
+
+>>>>>>> 2c0438fa64a6fb1745cc064f84805edd8b8d4c7d
