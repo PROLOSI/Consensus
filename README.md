@@ -22,4 +22,3 @@ Necesidades criticas del proyecto:
 
 - Habilidades de resolución de problemas.
 
-
