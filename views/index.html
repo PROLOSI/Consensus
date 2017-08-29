@@ -9,8 +9,16 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <script src="script.js"></script>
+<script src="../node_modules/web3/dist/web3.min.js" ></script>
 </head>
 <body>
+
+<script type="text/javascript">
+	var	web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+	//onsole.log(web3);
+	web3.eth.defaultAccount = web3.eth.accounts[0];
+</script>
+
 <div>
 <div>
 <nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
