@@ -1,0 +1,17 @@
+
+
+Actualizar Node.js en Linux
+
+https://www.cyberciti.biz/faq/how-to-install-node-js-on-ubuntu-linux-16-04-server/
+
+
+$(document).ready(function () {
+	$("#button").on("click", function(){
+		debugger;
+		alert("asasd")
+		token.setFoo(input.value);
+		output.innerHTML = token.getFoo();
+		output2.innerHTML = web3.toAscci(token.getFoo());
+
+	});
+});
