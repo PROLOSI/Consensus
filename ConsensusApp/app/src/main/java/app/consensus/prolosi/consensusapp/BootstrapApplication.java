@@ -3,6 +3,7 @@
 package app.consensus.prolosi.consensusapp;
 
 import android.app.Application;
+import app.consensus.prolosi.consensusapp.BootstrapComponent;
 import android.content.Context;
 
 
