@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">ConsensusApp</string>
+    <string name="lApp_name">Consensus App</string>
+
+    <string name="lCampoUsuario_Loggin">Nombre de usuario</string>
+    <string name="lCampoContrasenia_Loggin">Contraseña</string>
+    <string name="bIniciar_Loggin">Entrar</string>
+
+
 </resources>

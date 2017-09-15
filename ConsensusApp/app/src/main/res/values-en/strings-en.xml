@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lApp_name">Consensus App</string>
+
+    <string name="lCampoUsuario_Loggin">User Name</string>
+    <string name="lCampoContrasenia_Loggin">Password</string>
+    <string name="bIniciar_Loggin">Loggin</string>
+
+
+</resources>
