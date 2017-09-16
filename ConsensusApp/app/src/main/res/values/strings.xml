@@ -1,9 +1,18 @@
 <resources>
-    <string name="lApp_name">Consensus App</string>
 
+    <!-- Componentes de la interfaz -->
+    <string name="lApp_name">Consensus App</string>
     <string name="lCampoUsuario_Loggin">Nombre de usuario</string>
     <string name="lCampoContrasenia_Loggin">Contraseña</string>
     <string name="bIniciar_Loggin">Entrar</string>
+
+
+
+    <!-- Mensajes flotantes -->
+    <string name="solicitarPermiso">Permiso necesario</string>
+    <string name="permisoLeerMemoria">Desea permitir acceso de LECTURA a la memoria del dispositivo</string>
+    <string name="permisoEscribrirMemoria">Desea permitir acceso de ESCRITURA a la memoria del dispositivo</string>
+    <string name="permisoInternet">Se requiere acceso a INTERNET</string>
 
 
 </resources>

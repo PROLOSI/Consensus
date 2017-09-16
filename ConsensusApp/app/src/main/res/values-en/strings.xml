@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Componentes de la interfaz -->
+    <string name="lApp_name">Consensus App</string>
+    <string name="lCampoUsuario_Loggin">User Name</string>
+    <string name="lCampoContrasenia_Loggin">Password</string>
+    <string name="bIniciar_Loggin">Loggin</string>
+
+
+    <!-- Mensajes flotantes -->
+    <string name="solicitarPermiso">Permission necessary</string>
+    <string name="permisoLeerMemoria">You want to allow READ access to device memory</string>
+    <string name="permisoEscribrirMemoria">You want to allow WRITE access to device memory</string>
+    <string name="permisoInternet">INTERNET access required</string>
+
+
+</resources>
