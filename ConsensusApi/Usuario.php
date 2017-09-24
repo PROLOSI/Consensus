@@ -8,7 +8,7 @@ include 'ConsensusDB.php';
 header('Content-Type: text/json');
 header('Access-Control-Allow-Origin: *');  //I have also tried the * wildcard and get the same response
 header("Access-Control-Allow-Credentials: true");
-header('Access-Control-Allow-Methods: GET,POST');
+header('Access-Control-Allow-Methods: GET,POST,DELETE,PUT');
 header('Access-Control-Allow-Headers: Content-Type, Content-Range, Content-Disposition, Content-Description,Access-Control-Allow-Headers,Origin, X-Requested-With, Accept');
 
 
