@@ -70,14 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] == "PUT") {
 
         $resultado = mysqli_query($conn, $consulta);
 
-        $consulta2 = "call consultarUsuario(" . $obj['id'] . ")";
-
-        $resultado2 = mysqli_query($conn, $consulta2);
-
-        $usuario = mysqli_fetch_array($resultado2);
-
-
-        if ($obj['usuario'] == $usuario['usuario'] && $obj['estado'] == $usuario['estado']) {
+        if ($resultado!= null) {
 
             $array2 = array("estado" => "Exito");
         } else {
