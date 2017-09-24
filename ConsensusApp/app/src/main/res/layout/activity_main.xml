@@ -9,83 +9,10 @@ tools:context="app.prolosi.consensus.consensusapp.MainActivity"
 android:orientation="vertical" >
 
 
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_weight="1" >
-
-    <LinearLayout
+    <WebView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingBottom="10dp"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:paddingTop="5dp" >
+        android:layout_height="match_parent"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="5dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:text="@string/lCampoUsuario_Loggin"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            />
-
-        <AutoCompleteTextView
-            android:id="@+id/tCampoEmailUsuario_Loggin"
-            android:completionThreshold="1"
-            android:imeOptions="actionNext"
-            android:inputType="textEmailAddress"
-            android:nextFocusDown="@+id/tCampoContrasenia_Loggin"
-            android:layout_height="50dp"
-            android:layout_width="match_parent"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="5dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:paddingTop="10dp"
-            android:text="@string/lCampoContrasenia_Loggin"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            />
-
-        <EditText
-            android:id="@+id/tCampoContrasenia_Loggin"
-            android:imeOptions="actionDone"
-            android:inputType="textPassword"
-            android:password="true"
-            android:layout_height="50dp"
-            android:layout_width="match_parent"/>
-
-        <Button
-            android:id="@+id/bIniciar_Loggin"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="15dp"
-            android:gravity="center"
-            android:onClick="metEntrarSession"
-            android:padding="10dp"
-            android:text="@string/bIniciar_Loggin"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingBottom="5dp"
-            android:paddingLeft="5dp"
-            android:paddingRight="5dp"
-            android:id="@+id/tConfirmacionAPI"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            />
-
-    </LinearLayout>
-
-
-</ScrollView>
 
 </LinearLayout>

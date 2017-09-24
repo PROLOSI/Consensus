@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Componentes de la interfaz -->
-    <string name="lApp_name">Consensus App</string>
+    <string name="lApp_name">Consensus</string>
     <string name="lCampoUsuario_Loggin">Nombre de usuario</string>
     <string name="lCampoContrasenia_Loggin">Contraseña</string>
     <string name="bIniciar_Loggin">Entrar</string>
